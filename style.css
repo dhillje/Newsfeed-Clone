@@ -6,6 +6,7 @@
 body {
   background-color: #7067cf;
   color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #list {
@@ -17,9 +18,10 @@ body {
 li {
   text-align: center;
   margin-top: 10px;
-  background-color: #453bba;
+  background-color: white;
   border-radius: 10px;
   width: 14rem;
+  color: black;
 }
 
 .main-section {
@@ -40,12 +42,11 @@ li {
 }
 
 .newsfeed {
-  background-color: white;
-  height: 20rem;
+  background-color: #453bba;
   padding: 4rem;
   text-align: center;
-}
-
-.newsfeed h1 {
-  color: black;
+  width: 39%;
+  height: 75%;
+  margin: 0 auto;
+  border-radius: 10px;
 }
